@@ -1,0 +1,57 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>William Zhong's Personal Portfolio</title>
+</head>
+
+<body>
+    <nav role=navigation class="top-nav">
+        <ul>
+            <a href="index.html">
+                <li nav aria-current=page tabIndex=0>Home</li>
+            </a>
+            <li tabIndex=1><a aria-haspopup="true" aria-expanded="false">Projects</a>
+                <ul class="pulldown-menu">
+                    <a href="project1page.html">
+                        <li>BP System</li>
+                    </a>
+                    <a href="project2page.html">
+                        <li>The ABCs</li>
+                    </a>
+                </ul>
+            </li>
+            <a href="resumepage.html">
+                <li tabIndex=2>Resume</li>
+            </a>
+            <a href="contactpage.html">
+                <li tabIndex=3>Bio & Contact</li>
+            </a>
+        </ul>
+    </nav> 
+    
+    <p id="nametitle">William Zhong</p>
+    <p id="homepagedescription">Welcome to my portfolio.</p> 
+    
+    <div class="flex-container">
+        <a href="project1page.html">
+            <div class="card">
+                <img src="bpsystem.jpg" alt="bpsystem" style="width:100%">
+                <div class="container">
+                <h4><b>BP System: Bike Pannier Storage Solution</b></h4>
+                <p>A 3-part device that attaches to the Wald 215 bike rack component. It stores items securely, is simple and intuitive to use, and does not impede the biking experience while mounting and riding.</p>
+                </div>
+            </div>
+        </a>
+        <a href="project2page.html">
+            <div class="card">
+                <img src="abcs.jpg" alt="abcs" style="width:100%">
+                <div class="container">
+                <h4><b>The ABCs: Alcohol Bottle Clamp Stabilizer</b></h4>
+                <p>A device that allows individuals to uncork wine bottles with only one arm. Users go through the entire process of uncorking with complete independence, starting at device set-up and ending with pouring a glass of wine.</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
